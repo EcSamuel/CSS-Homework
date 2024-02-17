@@ -1,0 +1,205 @@
+* {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: #0871b7 4px;
+}
+head {
+
+}
+nav {
+    /* height:auto; */
+    display:block;
+    /* position: relative; */
+    /* visibility: visible; */
+    margin: 10px;
+    padding: 10px;
+    /* display: flex; */
+    color: red;
+    text-align: center;
+}
+nav > ul {
+    /* display:flex;
+    flex-direction: row; */
+    /* display:block; */
+    list-style: none;
+}
+nav > ul > li {
+    display:inline;
+    margin: 10px;
+}
+.container {
+    margin-top: 20px;
+    /* padding: 10px; */
+    /* justify-content: center; */
+    /* align-content: center; */
+    /* display:flex; */
+}
+.refbox {
+    justify-content: space-between;
+    display: table-row;
+    margin: 10px;
+    padding: 10px;
+    border-spacing: 10px;
+}
+.Title {
+    z-index: 1;
+    text-align: center;
+}
+body {
+    font-size: large;
+    /* min-height: 100vh; */
+    padding: 10px;
+    border-radius: 5px;
+    /* margin: 20px; */
+    /* margin: 10px; */
+    /* display: flex; */
+    /* height: 100vh; */
+    /* flex-wrap: wrap; */
+}
+body::after {
+    content: "";
+    background-color: rgb(255, 255, 255);
+    background-image:url("Ethan\ Samuel\ Signature.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+footer {
+    text-align:right;
+    justify-content: baseline;
+    float: bottom;
+    padding: 10px 0;
+  }
+.welcome {
+    font-style: italic;
+}
+.no-decor {
+    text-decoration: none;
+}
+#active {
+    color: black;
+    font-weight: bold;
+}
+.bigbox {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+ul {
+    /* justify-content: center; */
+    /* list-style: none; */
+    /* width:100%; */
+    /* gap: 30px; */
+    /* display: block; */
+}
+.rectangle > ul{
+    /* list-style: none; */
+    /* display:flex; */
+    /* flex-wrap: wrap; */
+    /* flex-grow: 400px; */
+    /* min-width: 0 0 32%; */
+}
+.reference {
+    /* flex-direction: row; */
+    display:table-cell;
+    border-radius: 100%;
+    border: 1vh;
+    border-spacing: 10px;
+    margin: 10px;
+    background-image: url(https://media.istockphoto.com/id/1138295318/photo/young-asia-student-study-in-the-public-library-she-making-note-on-notebook-and-using-laptop.jpg?s=612x612&w=0&k=20&c=PDnXWwvHjJnDSaKOxT9Vdj8VwJx2mBJd7Yg0DkjL-2g=);
+    background-position: 10% 60%;
+    max-width: 300px;
+    min-height: 300px;
+    background-size:auto;
+}
+.reflink {
+    text-decoration: none;
+    text-align: center;
+    color:antiquewhite;
+}
+.reference > p {
+    color:antiquewhite;
+    text-align: center;
+}
+/* Try Rectangle Before or Rectangle After  */
+.prj-rectangle {
+    background-image: url(https://www.shutterstock.com/image-photo/engineers-helping-design-work-on-600nw-1724713963.jpg);
+    
+}
+.dev-rectangle {
+    background-image: url(https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg);
+}
+.teacher-rectangle {
+    background-image: url(https://www.shutterstock.com/image-photo/classroom-school-without-student-teacher-600nw-1940009296.jpg);
+    background-size: cover;
+}
+.theatre-rectangle {
+    background-image: url(https://paragon-threesixty.transforms.svdcdn.com/production/union-high-hero-banner.jpg?w=1200&h=630&q=82&auto=format&fit=crop&dm=1594663727&s=6ec2506787d771460b11c51641d57fc7);
+    background-size: cover;
+}
+.coach-rectangle {
+    background-image: url(https://t3.ftcdn.net/jpg/03/48/02/56/360_F_348025619_osZvUMBKNm9MG1Z5GfrClkdpZPUJE5ks.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.PT {
+    background-image: url(https://scontent-lax3-1.xx.fbcdn.net/v/t39.30808-6/274716975_1147193369469078_8077168139507510880_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=aUDqlmWQJI0AX9AGvcC&_nc_ht=scontent-lax3-1.xx&oh=00_AfCpUV-st3zUb5vv8E2Fpek7nU_kl52Srk8OnvvykiDYbw&oe=65D61C13);
+    background-size:cover;
+}
+.MSU {
+    background-image: url(https://blogs.missouristate.edu/brand/files/2019/03/wordmark-rgb-stacked_university.png);
+    background-size:cover;
+}
+.PSU {
+    background-image: url(https://kchba.org/wp-content/uploads/2018/02/Pittsburg-State-University-logo.jpg);
+    background-size: cover;
+}
+a:active {
+    color:black
+}
+a:visited {
+    /* color:brown */
+}
+a:hover {
+    color:rgb(24, 147, 71);
+}
+.rectangle:hover {
+    color:rgb(0, 0, 0);
+    opacity: 0.5
+}
+.rectangle {
+    background-color: #0871b7;
+    border-radius: 10px;
+    border-width: 10px;
+    border-spacing: 10px;
+    opacity: .3;
+    /* padding: 2vw;
+    /* z-index: 1; */
+    margin: 3vw;
+    /* justify-content: flex-end; */
+}
+/* Not sure the below will solve the issue, or is the ideal solution */
+.text-opacity {
+    /* opacity: 1; */
+}
+  /* .rectangle:nth-child(1) {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1; 
+  }
+  .rectangle:nth-child(2) {
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+  }
+  .rectangle:nth-child(3) {
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1; 
+  }
+  .rectangle:nth-child(4) {
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1; 
+  } Commenting all this out for now */
